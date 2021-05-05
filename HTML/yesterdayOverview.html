@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+  <title>This is my website!</title>
+  <!-- Cia idesime dar dalyku veliau.-->
+</head>
+<body>
+  <!--Heading -->
+  <h1>Welcome to my website!</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vero
+    veritatis placeat. Similique, recusandae eum facilis molestiae reprehenderit
+    repellat, pariatur corrupti modi, repudiandae ea nobis deleniti quasi
+    suscipit distinctio. Repellendus?
+  </p>
+  <p>
+    <!-- Paragraph-->
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. At provident est
+    assumenda error eveniet culpa, quasi nihil totam nisi nemo non eos? Mollitia
+    iusto doloribus similique labore vitae neque! Ullam?
+  </p>
+  <ul>
+    <!-- Unordered LIST-->
+    <li>Batonas</li>
+    <li>Sviestas ir desra</li>
+    <li>Svogunas</li>
+    <li>Pienas ir Suris</li>
+  </ul>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate facilis
+    illo vel reprehenderit impedit dolorum, excepturi ullam praesentium fugiat
+    tempora perferendis iste quos dicta ut consequuntur rem! Blanditiis,
+    perspiciatis quae!
+  </p>
+  <ol>
+    <!-- Unordered LIST-->
+    <li>Batonas</li>
+    <li>Sviestas ir desra</li>
+    <li>Svogunas</li>
+    <li>Pienas ir Suris</li>
+  </ol>
+  <h2>Level 2 header!</h2>
+  <h3>Level 3 Header!</h3>
+  <br />
+  <!--Padeda tuscia tarpa-->
+  <h5>Level 5 header!</h5>
+  <pre>
+Tekstas        atvaizduojamas taip
+      Kaip ir parasytas
+      :)
+  </pre>
+  <h1>Teksto formatavimas</h1>
+  <b>Paryskintas tekstas</b>
+  <br />
+  <i>Pakreiptas tekstas</i>
+  <br />
+  <u>Pabreztas tekstas</u>
+  <br />
+  <small>Mazas tekstas</small>
+  <sub>Zemiau</sub>
+  5<sup>Kvadratu</sup>
+  <p>Stai mano paveiksliukas</p>
+  <img src="/batman.png" alt="Paveiksliukas nerastas" width="50" height="50" />
+  <!-- <img
+    src="https://media.istockphoto.com/photos/illustration-of-smiling-happy-man-with-laptop-sitting-in-armchair-picture-id1226886130?s=612x612"
+  /> -->
+  <!--<img src="/batman.png" alt="Picture" width="500" height="600" /> -->
+  <a href="/kitasPuslapis.html">Eiti i kita puslapi</a>
+  <hr />
+  <br />
+  <h2>Lenteles</h2>
+  <table border="1">
+    <thead>
+      <tr
+        style="color: rgb(235, 227, 224); background-color: rgb(64, 113, 204)"
+      >
+        <th>Id</th>
+        <th>Name</th>
+        <th>Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td>Dennis</td>
+        <td>Manager</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Bill</td>
+        <td>Accountant</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Jane</td>
+        <td>Driver</td>
+      </tr>
+    </tbody>
+  </table>
+  <div style="text-align: center; border-style: dashed; border-radius: 25px">
+    <h1>Esu 1 DIVO viduje</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo debitis
+      reprehenderit officia corporis eius? Sapiente, facere neque? Rem excepturi
+      est qui ipsam autem quos illum eaque molestiae illo sit! Expedita.
+    </p>
+  </div>
+  <div style="background-color: crimson">
+    <h1>Esu 2 DIVO viduje</h1>
+    <p style="border-style: double">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+      itaque ratione laborum doloribus. Voluptatibus accusantium veniam porro
+      eveniet nulla ea quos, aliquam similique ipsam architecto blanditiis sequi
+      sapiente, omnis cupiditate!
+    </p>
+  </div>
+  <span><b>Labas</b> <i>Kaip</i> <u>Sekasi?</u></span>
+  <hr />
+  <h2>Formos</h2>
+  <form>
+    <label for="vardas">Vartotojo vardas</label>
+    <br />
+    <input
+      type="text"
+      name="vardas"
+      id="vardas"
+      placeholder="pvz.: Jonas"
+      required
+      maxlength="5"
+    />
+    <br />
+    <input type="text" name="pavarde" id="pavarde" hidden />
+    <br />
+    <label for="password">Slaptazodis</label>
+    <br />
+    <input type="password" name="password" id="password" required />
+    <br />
+    <label for="miestas">Miestas</label>
+    <br />
+    <input type="miestas" value="Vilnius" readonly />
+    <br />
+    <label for="aprasymas">Aprasymas</label>
+    <textarea name="aprasymas" id="aprasymas" style="resize: none"> </textarea>
+    <br />
+    <label for="kursas">Kursas</label>
+    <input type="checkbox" name="kursas" /> java
+    <input type="checkbox" name="kursas" /> phyton
+    <br />
+    <input type="radio" name="subject" value="maths" /> Maths
+    <input type="radio" name="subject" value="physics" /> Physics
+    <br />
+    <label for="maistas">Megstamiausias maistas</label>
+    <select name="maistas" id="maistas">
+      <option>Pica</option>
+      <option>Balandeliai</option>
+      <option>Tortas</option>
+      <option>Cepelinai</option>
+      <option>Salotos</option>
+    </select>
+    <button type="submit">Saugoti</button>
+  </form>
+</body>

@@ -1,0 +1,27 @@
+.cool {
+  color: rgb(201, 66, 66);
+  font-size: 30px;
+}
+.myDiv {
+  background-color: salmon;
+  height: 40px;
+  width: 50%;
+  text-align: center;
+  border-style: dotted;
+}
+.image {
+  margin-top: 30px;
+  width: 100px;
+  height: auto;
+
+  border-style: double;
+  border: 10px solid green;
+}
+.image:hover {
+  background-color: indigo;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
