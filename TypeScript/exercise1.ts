@@ -1,5 +1,6 @@
-let count = 5;
-console.log(count);
+export {};
+let someNumber: number = 5;
+console.log(someNumber);
 
 let a: number;
 
@@ -21,5 +22,5 @@ enum Color {
 
 let message = "abs";
 
-let newMessage = message.endsWith("s");
+let newMessage = message;
 console.log(newMessage);

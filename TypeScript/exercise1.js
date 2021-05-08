@@ -1,5 +1,5 @@
-var count = 5;
-console.log(count);
+var someNumber = 5;
+console.log(someNumber);
 var a;
 var b;
 var s;
@@ -13,5 +13,5 @@ var Color;
     Color[Color["Green"] = 2] = "Green";
 })(Color || (Color = {}));
 var message = "abs";
-var newMessage = message.endsWith("s");
+var newMessage = message;
 console.log(newMessage);
